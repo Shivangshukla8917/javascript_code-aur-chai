@@ -20,6 +20,7 @@ console.log(myArr.indexOf(9));//-1
 const newArr = myArr.join()
 console.log(myArr);
 console.log(newArr);
+
 //slice,splice
 
 

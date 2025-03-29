@@ -37,6 +37,8 @@ console.log(Object.keys(tinderUser));//gives keys in the datatype of array
 console.log(Object.values(tinderUser));
 console.log(tinderUser.hasOwnProperty('name'));
 
+/********************** deque structure */
+
 const course = {
     coursename: "js in hindi",
     price: "9090",

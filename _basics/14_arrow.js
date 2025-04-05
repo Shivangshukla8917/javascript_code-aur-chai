@@ -43,6 +43,6 @@ chai()
 /************************** IMPLICIT FUNCTION */
 // const addTwo = (num1 , num2) => (num1 +num2)
 
-const addTwo = (num1 , num2) => ({userName: "hitesh"})//using() to refer an object
+// const addTwo = (num1 , num2) => ({userName: "hitesh"})//using() to refer an object
 
-console.log(addTwo(3,4));
+// console.log(addTwo(3,4));

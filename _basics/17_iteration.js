@@ -55,51 +55,91 @@
 
 /*************array iteration */
 
-const arr = [1,2,3,4,5,6]
-for (const num of arr) {
-   console.log(num);
-}
+// const arr = [1,2,3,4,5,6]
+// for (const num of arr) {
+//    console.log(num);
+// }
 
 
-const greetings = 'shivangshukla'
-for (const greets of greetings) {
-   if (greets == 'n') {
-      console.log(`${greetings} done at shiva`);
-      break;
+// const greetings = 'shivangshukla'
+// for (const greets of greetings) {
+//    if (greets == 'n') {
+//       console.log(`${greetings} done at shiva`);
+//       break;
       
       
-   }
-   console.log(`each char is ${greets}`);
-}
+//    }
+//    console.log(`each char is ${greets}`);
+//}
 
 /*******************MAP  pe iteration yaha ni kr skte*/
-const map = new Map;//only unique value will be printed
-map.set('IN' , "INDIA")
-map.set('USA' , "united states of america")
-map.set('fr' , "france")
-// console.log(map);
-for(const [key,value] of map) {
-   console.log(key, '=' , value);//in = india
+// const map = new Map;//only unique value will be printed
+// map.set('IN' , "INDIA")
+// map.set('USA' , "united states of america")
+// map.set('fr' , "france")
+// // console.log(map);
+// for(const [key,value] of map) {
+//    console.log(key, '=' , value);//in = india
    
-}
+// }
 
 /***************OBJECT ITERATION */
-const myObject = {
-   js : "javascript",
-   cpp : "cpp",
-   rb : "ruby",
-   swift : "swift by apple"
-}
-for (const key in object) {
-  console.log(`${key} shorcut for ${myObject[key]}`);
+// const myObject = {
+//    js : "javascript",
+//    cpp : "cpp",
+//    rb : "ruby",
+//    swift : "swift by apple"
+// }
+// for (const key in object) {
+//   console.log(`${key} shorcut for ${myObject[key]}`);
   
-}
+// }
 
 /*********************using FOR IN in array */
-const program = ["do", "while", "py", "java"]
-for (const key in program) {
-  console.log(prgram[key]);//do while py java
-  console.log(key);//0123
-}
+// const program = ["do", "while", "py", "java"]
+// for (const key in program) {
+//   console.log(prgram[key]);//do while py java
+//   console.log(key);//0123
+// }
+/****************FOR EACH */
+//const program = ["do", "while", "py", "java"]
+
+// program.forEach(function (val) {
+//    console.log(val);
+   
+// })
+// program.forEach((item) => {
+//    console.log(item);
+   
+   
+// });
+
+// /*************************** */
+// coding.array.forEach((item, index, arr) => {
+//    console.log(item, index , arr);
+// });
+
+const mycoding = [
+   {
+      mylanguage: "javascript",
+      myextension : "js"
+
+   },
+   {
+      mylanguage: "python",
+      myextension : "py"
+
+   },
+   {
+      mylanguage: "c++",
+      myextension : "cpp"
+
+   }
+]
+
+mycoding.forEach((item) => {
+   console.log(item.mylanguage);
+   
+})
 
 

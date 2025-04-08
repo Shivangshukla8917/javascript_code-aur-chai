@@ -56,9 +56,9 @@ const newNums = mynums.map((num) => num *10).map((num) => num+1).filter((num) =>
 const myTotal = mynums.reduce(function (acc , currval) {
 //OR   const myTotal = mynums.reduce((acc , curr) => acc+curr , 0)    
 
-    console.log(`accc: ${acc} and currval : ${currval}`);
+//     console.log(`accc: ${acc} and currval : ${currval}`);
     
-    return acc +currval;
-}, 0)
-console.log(myTotal);
+//     return acc +currval;
+// }, 0)
+// console.log(myTotal);
 

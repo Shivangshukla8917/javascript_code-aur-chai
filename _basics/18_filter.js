@@ -61,4 +61,4 @@ const myTotal = mynums.reduce(function (acc , currval) {
 //     return acc +currval;
 // }, 0)
 // console.log(myTotal);
-
+})

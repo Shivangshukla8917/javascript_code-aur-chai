@@ -14,15 +14,15 @@
 
 
 /***********multiple condition checking */
-const userloggedIn = true
-const debitcard = true
-const loggedFromGoogle = false
-const loggedFromEmail = true
+// const userloggedIn = true
+// const debitcard = true
+// const loggedFromGoogle = false
+// const loggedFromEmail = true
 
-if(userloggedIn && debitcard && 2==3) {
-    console.log("allow to buy course");
+// if(userloggedIn && debitcard && 2==3) {
+//     console.log("allow to buy course");
     
-}
+// }
 /**************SWITCH */
 const month = "march"
 switch (month) {

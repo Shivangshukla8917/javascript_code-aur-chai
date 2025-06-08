@@ -8,10 +8,20 @@
 /***************OR */
 // const myNums = [1,2,3,4,5,6,7,8,9,10]
 // const newNums = nums.filter((num) => num > 4)
-
+// BASIC OF FILTER
 /****************OR */
+
+
+
+//Const newNums = myNums.filter((num) => {
+   // return num >4})
+    //console.log(newNums);
+    //using { }we must have to use return function
+
+
+
 // const newNums = []
-// myNums.forEach(() => {
+// myNums.forEach((num) => {
 //     if (num > 4) {
 //         newNums.push(num)
 //     }
@@ -61,4 +71,6 @@ const myTotal = mynums.reduce(function (acc , currval) {
 //     return acc +currval;
 // }, 0)
 // console.log(myTotal);
-})
+//})
+
+//REDUCE FUNCTION IS used to sum of array using accumulator and current value

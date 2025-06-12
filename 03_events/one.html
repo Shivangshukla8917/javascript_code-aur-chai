@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    // document.getElementById('owl').onclick = function() {
+    //     alert("owl clicked")
+    // }
+
+
+    document.getElementById('owl').addEventListener('click', function(){
+        alert("owl clicked again")
+    })
+
+    //attachEvent -> in early time
+    //jquery -> famous just like react
+
+    document.getElementById('owl').addEventListener('click',function(e){
+        console.log(e);
+        
+    }, false)
+
+
+    document.getElementById('images').addEventListener('click', function(e) {
+        console.log("clicked inside the ul");
+        
+    }, false)
+
+    document.getElementById('owl').addEventListener('click', function(e) {
+        console.log("owl clicked");
+      //////////////  e.stopPropagation()
+    }, false)
+    //bubbling -> it refers to first priority on inside element than upper element(using FALSE) , bottom to uuse case 
+    // CAPYURING MODE ->true -> top to bottom use case
+
+
+    //type, timestamp, defaultPrevented
+    //target, to Element , srcElement, currentTarget
+    //clientX, clientY,sceenX, screenY
+    //altkey, ctrlKey, shiftKey, keyCode
+</script>
+</html>
